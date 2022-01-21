@@ -54,3 +54,14 @@ for r in range(base_size):
         print('*', end='')
     print()
 # ----------------------------------|
+# Example
+# Loop through both keys and values, by using the items() method:
+
+thisdict =	{
+  "name": "ahmed",
+  "age": "29",
+  "year": 1992
+}
+for x, y in thisdict.items():
+  print(x, y)
+
