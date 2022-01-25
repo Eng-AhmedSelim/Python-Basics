@@ -48,3 +48,19 @@ print(q.values())  # Access value and keys
 print(q.pop(2))  # Access value
 print(q.get(1))  # Access value
 
+# -----------------------------
+# Randomisation
+import random
+name = input("insert name: ")
+list_name = name.split(",")
+name_ran = random.choice(list_name) #random name in list
+print(name_ran)
+
+
+
+
+
+
+
+
+
