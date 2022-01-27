@@ -56,7 +56,30 @@ list_name = name.split(",")
 name_ran = random.choice(list_name) #random name in list
 print(name_ran)
 
+# =========================================================
+# Example of List
 
+row1 = ["⬜️","⬜️","⬜️"]
+row2 = ["⬜️","⬜️","⬜️"]
+row3 = ["⬜️","⬜️","⬜️"]
+
+map = [row1, row2, row3]
+print(f"{row1}\n{row2}\n{row3}")
+position = input("Where do you want to put the treasure? ")
+
+# Identify the numbers entered in variables
+horzonal = int(position[0]) #2
+vertical = int(position[1]) #3
+
+# Grade selection
+selcted_row = map[vertical - 1]
+
+#Change the value of the column inside the row to "X"
+selcted_row[horzonal - 1] = "😛"
+
+
+# \n = new line
+print(f"{row1}\n{row2}\n{row3}")
 
 
 
