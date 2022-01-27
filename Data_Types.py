@@ -71,11 +71,17 @@ position = input("Where do you want to put the treasure? ")
 horzonal = int(position[0]) #2
 vertical = int(position[1]) #3
 
+# -----------------------------------
 # Grade selection
 selcted_row = map[vertical - 1]
 
 #Change the value of the column inside the row to "X"
 selcted_row[horzonal - 1] = "😛"
+# -----------------------------------
+
+# or ------------------
+map[vertical - 1][horzonal - 1] = "😛"
+# ---------------------
 
 
 # \n = new line
